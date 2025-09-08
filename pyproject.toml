@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coneset"
+version = "0.1.0"
+description = "Toolkit zum Vorbereiten, Analysieren und Trainieren eines YOLO-Kegeldatensatzes."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Dein Name" }]
+license = { text = "MIT" }
+
+dependencies = [
+  "pillow>=10.0.0",
+  "matplotlib>=3.8.0",
+  "pyyaml>=6.0.1",
+  "ultralytics>=8.0.0",
+  "opencv-python>=4.8.0",
+  "pandas>=2.1.0",
+  # TensorFlow ist optional/OS-abhängig – bei Windows+py>=3.12 ggf. selbst installieren:
+  # "tensorflow>=2.12; platform_system != 'Windows' or python_version < '3.12'",
+]
+
+[project.optional-dependencies]
+augment = [
+  "albumentations>=1.4.0",   # falls du auf bbox-sichere Augmentierung wechselst
+]
+dev = [
+  "black>=24.1.0",
+  "isort>=5.12.0",
+  "ruff>=0.5.0",
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+coneset = "coneset.cli:main"
+
+[tool.setuptools]
+packages = ["coneset"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 100

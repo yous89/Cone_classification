@@ -1,0 +1,22 @@
+dataset_path: "C:/Users/youse/OneDrive/Desktop/Hütchen/fsoco_bounding_boxes_train"
+output:
+  images_train: "images/train2"
+  labels_train: "labels/train2"
+  images_sel:   "images/orange_augment"
+  labels_sel:   "labels/orange_augment"
+  merged_images: "dataset_merged/images"
+  merged_labels: "dataset_merged/labels"
+classes:
+  blue_cone: 0
+  yellow_cone: 1
+  orange_cone: 2
+  large_orange_cone: 3
+targets_for_selection: [2, 3]
+yolo:
+  imgsz: 640
+  batch: 16
+  epochs: 50
+  model: "yolov8n.pt"
+  best_weights: "runs/detect/train9/weights/best.pt"
+  split_root: "dataset_split"
+  test_image: "dataset_split/test/images/pwrrt_00148.png"
