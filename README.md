@@ -1,4 +1,4 @@
-# coneset – Toolkit für YOLO-Datensätze (Hütchen/Kegel)
+# Verhehrhütschen erkennen & klassifizieren
 
 > Saubere Modul- & Paketstruktur zum Vorbereiten, Analysieren, Augmentieren, Mergen und Trainieren von YOLO-Datensätzen (Ultralytics) – speziell für Verkehrs-/Rennkegel.
 
