@@ -25,7 +25,7 @@
 * **Augmentierung**: Helligkeit/Kontrast/Sättigung/Farbton (TensorFlow) – Labels werden mitkopiert.
 * **Mergen**: Original- und augmentierte Daten kollisionsfrei zusammenführen.
 * **Training**: Ultralytics YOLO trainieren (v8).
-* **Evaluation & Inferenz**: mAP, per-class mAP, annotierte Ergebnisbilder speichern.
+* **Evaluation & Inferenz**
 * **Konfigurierbar** via `config/config.yaml` (keine Hardcodierten Pfade!).
 
 ---
