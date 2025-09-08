@@ -1,8 +1,8 @@
 # dataset.yaml — Minimal für YOLOv8 (Detection)
 path:  "gib path zu Datensatz ein"                           
-train: dataset_split/train/images      # zugehörige Labels müssen in dataset_split/train/labels liegen
+train: dataset_split/train/images      
 val:   dataset_split/val/images
-test:  dataset_split/test/images       # optional, aber praktisch
+test:  dataset_split/test/images      
 
 nc: 4
 names: ["blue_cone", "yellow_cone", "orange_cone", "large_orange_cone"]
