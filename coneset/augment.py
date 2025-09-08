@@ -29,5 +29,5 @@ def run_augmentation(src_images: Path, src_labels: Path, out_images: Path, out_l
         if lab.exists():
             shutil.copy2(lab, out_labels / f"{out_img.stem}.txt")
         count += 1
-    print(f"✅ Augmentierte Bilder: {count}")
+    print(f"✅ Augmentiert Bilder: {count}")
     return count
