@@ -1,6 +1,8 @@
-# Cone detection and classification
+# Cone detection and classification with YOLO
 
 > Saubere Modul- & Paketstruktur zum Vorbereiten, Analysieren, Augmentieren, Mergen und Trainieren von YOLO-Datensätzen (Ultralytics) – speziell für Verkehrshütschen.
+> ![YOLOv8 Output](https://github.com/yous89/Cone_classification/blob/main/ff_00043.jpg)
+
 
 ---
 
