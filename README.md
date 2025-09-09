@@ -84,7 +84,9 @@ cd CONE-PROJECT
 #  mit pyproject.toml
 pip install -e .
 
-> **Tipp:** Verwende ein virtuelles Environment (`python -m venv .venv` & `source .venv/bin/activate` bzw. `./.venv/Scripts/activate`).
+```
+
+> Tipp: Verwende ein virtuelles Environment (`python -m venv .venv` & `source .venv/bin/activate` bzw. `./.venv/Scripts/activate`).
 
 ---
 
@@ -93,7 +95,7 @@ pip install -e .
 Alle Pfade und Hyperparameter zentral in `config/config.yaml`:
 
 ```yaml
-dataset_path: "C:/Users/youse/OneDrive/Desktop/Hütchen/fsoco_bounding_boxes_train"
+dataset_path: "C:/Users/youse/OneDrive/Desktop/Huetchen/fsoco_bounding_boxes_train"
 output:
   images_train: "images/train2"
   labels_train: "labels/train2"
@@ -116,7 +118,6 @@ yolo:
   split_root: "dataset_split"
   test_image: "dataset_split/test/images/pwrrt_00148.png"
 ```
-
 ---
 
 ## Schnellstart
