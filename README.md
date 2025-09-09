@@ -1,6 +1,6 @@
 # Cone detection and classification
 
-> Saubere Modul- & Paketstruktur zum Vorbereiten, Analysieren, Augmentieren, Mergen und Trainieren von YOLO-Datensätzen (Ultralytics) – speziell für Verkehrs-/Rennkegel.
+> Saubere Modul- & Paketstruktur zum Vorbereiten, Analysieren, Augmentieren, Mergen und Trainieren von YOLO-Datensätzen (Ultralytics) – speziell für Verkehrshütschen.
 
 ---
 
